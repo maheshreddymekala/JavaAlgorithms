@@ -7,7 +7,7 @@ public class QuickSortUsingLastIndex {
  * Time complexity for quick sort is average is (nlogn)
  * space complexity is O(Logn) extra space
  * worst case for space complexity is O(N)
- * **/
+ * *******/
     private static void swap(int[] arrayToSort, int low, int high) {
         int temp = arrayToSort[high];
         arrayToSort[high] = arrayToSort[low];
